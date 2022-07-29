@@ -16,12 +16,21 @@ function M.setup()
 			},
 			file_ignore_patterns = {
 				"%.pdf",
+				".git/.*",
+				"%.png",
+				"%.mat",
+				"%.l",
+				"%.slxc",
+				"%.xml"
 			},
 		},
 		pickers = {
 			buffers = {
 				-- ignore_current_buffer = true,
 				sort_mru = true,
+			},
+			find_files = {
+				hidden = true
 			},
 		},
 		extensions = {

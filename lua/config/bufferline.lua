@@ -2,7 +2,7 @@ local M = {}
 function M.setup()
 	local config = {
 		options = {
-			numbers = "none",
+			-- numbers = "none",
 			diagnostics = "nvim_lsp",
 			separator_style = "slant",
 			show_tab_indicators = true,
